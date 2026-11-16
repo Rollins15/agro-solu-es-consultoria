@@ -1,12 +1,19 @@
 import { Link } from "@tanstack/react-router";
-import { Sprout } from "lucide-react";
+import logoAzul from "@/assets/logo-azul.png.asset.json";
+import logoBranco from "@/assets/logo-branco.png.asset.json";
 
 export const CONTACT = { city: "Beira, Sofala — Moçambique", address: "4º Bairro, Rua S/N, Beira", nuit: "402 103 396" };
 
 export function Logo({ light = false }: { light?: boolean }) {
   return (
-    <Link to="/" className="flex items-center gap-2">
-      <span className="grid h-10 w-10 place-items-center rounded-full bg-navy text-leaf ring-2 ring-leaf/40"><Sprout className="h-5 w-5" /></span>
+    <Link to="/" className="flex items-center gap-2.5">
+      <img
+        src={light ? logoBranco.url : logoAzul.url}
+        alt="Agro Soluções & Consultoria"
+        width={44}
+        height={46}
+        className="h-11 w-auto shrink-0"
+      />
       <span className={`leading-none ${light ? "text-navy-foreground" : "text-foreground"}`}>
         <span className="block font-display text-xl font-extrabold">AGRO</span>
         <span className="block text-[10px] font-semibold uppercase tracking-wider opacity-70">Soluções & Consultoria</span>
