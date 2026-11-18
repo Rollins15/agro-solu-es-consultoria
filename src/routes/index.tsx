@@ -49,7 +49,7 @@ function Index() {
           <img src={consult} alt="Consultora a examinar folhas de soja" loading="lazy" width={1200} height={912} className="rounded-3xl object-cover" />
           <div>
             <h2 className="text-4xl font-extrabold">Assistência técnica no terreno</h2>
-            <p className="mt-4 text-muted-foreground">Estamos ao lado do produtor em cada fase — do solo à colheita — com conhecimento local e soluções práticas.</p>
+            <p className="mt-4 text-muted-foreground">Estamos ao lado do produtor em cada fase - do solo à colheita - com conhecimento local e soluções práticas.</p>
             <Link to="/sobre" className="mt-6 inline-flex items-center gap-2 font-semibold text-primary">Conheça a empresa <ArrowRight className="h-4 w-4" /></Link>
           </div>
         </div>
