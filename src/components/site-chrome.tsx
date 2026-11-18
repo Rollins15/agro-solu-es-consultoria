@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import logoAzul from "@/assets/logo-azul.png.asset.json";
 import logoBranco from "@/assets/logo-branco.png.asset.json";
 
-export const CONTACT = { city: "Beira, Sofala - Moçambique", address: "4º Bairro, Rua S/N, Beira", nuit: "402 103 396" };
+export const CONTACT = { city: "Beira, Sofala - Moçambique", address: "4º Bairro, Rua S/N, Beira", nuit: "402 103 396", phone: "+258 87 140 5526", phoneHref: "tel:+258871405526", whatsappHref: "https://wa.me/258871405526" };
 
 export function Logo({ light = false }: { light?: boolean }) {
   return (
@@ -51,7 +51,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-6xl gap-8 px-5 py-12 sm:grid-cols-3">
         <div><Logo light /><p className="mt-4 text-sm opacity-70">Agro Soluções e Consultoria, SU, LDA</p></div>
         <div className="text-sm opacity-80"><p className="font-semibold">Morada</p><p>{CONTACT.address}</p><p>{CONTACT.city}</p></div>
-        <div className="text-sm opacity-80"><p className="font-semibold">NUIT</p><p>{CONTACT.nuit}</p></div>
+        <div className="text-sm opacity-80"><p className="font-semibold">NUIT</p><p>{CONTACT.nuit}</p><p className="mt-3 font-semibold">Telefone / WhatsApp</p><p><a href={CONTACT.phoneHref} className="hover:underline">{CONTACT.phone}</a></p></div>
       </div>
       <p className="border-t border-navy-foreground/10 py-4 text-center text-xs opacity-60">© {new Date().getFullYear()} Agro Soluções & Consultoria</p>
     </footer>
