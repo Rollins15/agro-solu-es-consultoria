@@ -3,7 +3,7 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/sobre")({
   head: () => ({ meta: [
     { title: "Sobre — Agro Soluções & Consultoria" },
-    { name: "description", content: "Empresa moçambicana sediada na Beira, constituída em 2025, dedicada ao agronegócio." },
+    { name: "description", content: "Empresa moçambicana sediada na Beira, dedicada ao agronegócio." },
     { property: "og:title", content: "Sobre a Agro Soluções & Consultoria" },
     { property: "og:description", content: "Conheça a nossa empresa na Beira, Sofala." },
   ] }),
