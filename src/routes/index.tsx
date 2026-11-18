@@ -46,7 +46,7 @@ function Index() {
 
       <section className="bg-secondary">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-20 md:grid-cols-2">
-          <img src={consult} alt="Consultora a examinar folhas de soja" loading="lazy" width={1200} height={912} className="rounded-3xl object-cover" />
+          <img src={consult} alt="Consultor a conversar com um agricultor num campo de milho" loading="lazy" width={1280} height={960} className="rounded-3xl object-cover" />
           <div>
             <h2 className="text-4xl font-extrabold">Assistência técnica no terreno</h2>
             <p className="mt-4 text-muted-foreground">Estamos ao lado do produtor em cada fase - do solo à colheita - com conhecimento local e soluções práticas.</p>
