@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import logoAzul from "@/assets/logo-azul.png.asset.json";
 import logoBranco from "@/assets/logo-branco.png.asset.json";
 
-export const CONTACT = { city: "Beira, Sofala — Moçambique", address: "4º Bairro, Rua S/N, Beira", nuit: "402 103 396" };
+export const CONTACT = { city: "Beira, Sofala - Moçambique", address: "4º Bairro, Rua S/N, Beira", nuit: "402 103 396" };
 
 export function Logo({ light = false }: { light?: boolean }) {
   return (
